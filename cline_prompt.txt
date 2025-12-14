@@ -1,0 +1,48 @@
+You are fixing a Next.js deployment error on Vercel.
+
+ROOT CAUSE:
+Unknown
+
+FIX INSTRUCTIONS:
+See error logs
+
+FILES TO MODIFY:
+Check error logs to identify files
+
+ERROR LOGS:
+=== VERCEL DEPLOYMENT ERROR LOGS ===
+
+Deployment ID: 3475448991
+Commit: 78fb474d660f1db877fa9860abb59b09031e48a7
+
+Description: Deployment has failed
+
+Error Details:
+Vercel CLI 50.0.1
+> Build error occurred
+Error: Turbopack build failed with 1 errors:
+./app/page.tsx:8:10
+Parsing ecmascript source code failed
+[0m [90m  6 |[39m [36mexport[39m [36mdefault[39m func
+ [90m  7 |[39m   ret
+[31m[1m>[22m[39m[90m  8 |[39m     [33m<[39m[33mdiv[39m className[33m=[39m[32m"min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-4"[39m[33m>[39m
+ [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m  9 |[39m       [33m<[39m[33mheader[39m className[33m=[39m[32m"w-full max-w-4xl text-center py-8"[39m[33m>[39m
+ [90m 10 |[39m         [33m<[39m[33mh1[39m className[33m=[39m[32m"text-6xl font-extrabold text-amber-400 mb-4 leading-tight"[39m[33m>[39m
+ [90m 11 |[39m           [33mAroma[39m [33m<[39m[33mspan[39m className[33m=[39m[32m"text-white"[39m[33m>[39m[33mCoffee[39m[33m<[39m[33m/[39m[33mspan[39m[33m>[39m [33mShop[39m[0m
+Expected ';', '}' or <eof>
+    at <unknown> (./app/page.tsx:8:10)
+Error: Command "npm run build" exited with 1
+
+YOUR TASK:
+Fix the issue by modifying the affected files based on the root cause and fix instructions above.
+
+RULES:
+1. Follow the fix instructions precisely
+2. Focus on the files listed in FILES TO MODIFY
+3. Ensure all TypeScript/JSX syntax is valid
+4. DO NOT run npm install, npm build, or any npm commands
+5. Make minimal changes - only what's needed to fix the error
+6. After making changes, use attempt_completion to finish
+
+Start by examining the error logs and implementing the recommended fixes.
