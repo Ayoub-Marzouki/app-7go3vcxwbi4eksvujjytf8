@@ -3,8 +3,8 @@
 
 import Image from 'next/image';
 
-export default function Home() {
-  return (
+export default func
+  ret
     <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-4">
       <header className="w-full max-w-4xl text-center py-8">
         <h1 className="text-6xl font-extrabold text-amber-400 mb-4 leading-tight">
